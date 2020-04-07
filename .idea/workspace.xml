@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a186f24a-bf8c-42db-a319-2576bd8486e8" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\zln\maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="C:\zln\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aDVZukYRbyjw7i2q5xZeF1z14w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Git/bin/git.exe" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lagou.edu.ioc.annotation" />
+      <recent name="com.lagou.edu.ioc.annotion" />
+      <recent name="com.lagou.edu.ioc.Repository" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="lagou-transfer-myIco-anno [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.lagou-transfer-myIco-anno [tomcat7:run]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a186f24a-bf8c-42db-a319-2576bd8486e8" name="Default Changelist" comment="" />
+      <created>1586270209956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586270209956</updated>
+      <workItem from="1586270211171" duration="1143000" />
+      <workItem from="1586271620760" duration="14098000" />
+      <workItem from="1586285788161" duration="267000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
