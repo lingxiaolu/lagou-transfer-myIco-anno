@@ -82,24 +82,30 @@ public class ProxyFactory {
             @Override
             public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
                 Object result = null;
-                try{
-                    // 开启事务(关闭事务的自动提交)
-                    transactionManager.beginTransaction();
+                Transaction transaction = method.getAnnotation(Transaction.class);
+                if(transaction != null ){
+                    try{
+                        // 开启事务(关闭事务的自动提交)
+                        transactionManager.beginTransaction();
 
+                        result = method.invoke(obj,objects);
+
+                        // 提交事务
+
+                        transactionManager.commit();
+                    }catch (Exception e) {
+                        e.printStackTrace();
+                        // 回滚事务
+                        transactionManager.rollback();
+
+                        // 抛出异常便于上层servlet捕获
+                        throw e;
+
+                    }
+                }else{
                     result = method.invoke(obj,objects);
-
-                    // 提交事务
-
-                    transactionManager.commit();
-                }catch (Exception e) {
-                    e.printStackTrace();
-                    // 回滚事务
-                    transactionManager.rollback();
-
-                    // 抛出异常便于上层servlet捕获
-                    throw e;
-
                 }
+
                 return result;
             }
         });
